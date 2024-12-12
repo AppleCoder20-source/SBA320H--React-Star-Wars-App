@@ -9,7 +9,6 @@ export default function Main() {
 
     async function fetchShipData() {
       const data = await getAllStarships();
-      console.log(data.results)
       setShip(data.results); 
     }
 useEffect(() => {
