@@ -1,6 +1,6 @@
 # SBA 320H React Star Wars App
 
-A Star Wars Theme Web App in which a lot of cards are displayed, The entire webpage color is encapsulated with the star wars theme
+A Star Wars Theme Web App in which a lot of cards are displayed, The entire webpage  is encapsulated with the star wars theme
 
 ## Technologies Used
 - **Used React JS for front end, as well as Star Wars API
