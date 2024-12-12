@@ -1,12 +1,14 @@
 export default function StarShipCards({ship}) {
         const loaded = () => {
-            return (
-              <div className = "Ships">
-                <h1>{ship.name}</h1>
-                <h2>{ship.model}</h2>
-                <h2>{ship.passengers}</h2>
-              </div>
-            );
+          return (
+            <div className="starship-card">
+              <h2 className="starship-name">
+              Ship: {ship.name}</h2>
+            <p>Model: {ship.model}</p>
+              <p>Manufacturer: {ship.manufacturer}</p>
+            </div>
+          );
+        
           };
         
           // Function to return loading JSX
