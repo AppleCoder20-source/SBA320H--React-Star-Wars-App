@@ -9,18 +9,21 @@ export default function Main() {
 
     async function fetchShipData() {
       const data = await getAllStarships();
+      console.log(data.results)
       setShip(data.results); 
     }
 useEffect(() => {
     fetchShipData();
   }, []);
+  if(battleship === null){
+    return <h1> Loading...</h1>
+  }
   return (
     <div>
         <h1> Star Wars Theme</h1>
-      {battleship.map((singleShip, index) => (
-        <GetShips key={index} ship={singleShip} />
+      {battleship.map((StarShip) => (
+        <GetShips key={StarShip.url} ship={StarShip} />
       ))}
-      <h1>Loading...</h1>
     </div>
   );
 }
