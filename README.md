@@ -1,8 +1,17 @@
-# React + Vite
+#SBA 320H React Star Wars App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Star Wars Theme Web App in which a lot of cards are displayed, The entire webpage color is encapsulated with the star wars theme
 
-Currently, two official plugins are available:
+##Technologies Used
+- **Used React JS for front end, as well as Star Wars API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Acknowledgements
+- ** Used https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient for stars in css
+
+
+
+
+
+
+
+
