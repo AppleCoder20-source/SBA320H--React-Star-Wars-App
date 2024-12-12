@@ -3,10 +3,10 @@
 A Star Wars Theme Web App in which a lot of cards are displayed, The entire webpage  is encapsulated with the star wars theme
 
 ## Technologies Used
-- **Used React JS for front end, as well as Star Wars API
+- **Used React JS for front end, as well as Star Wars API**
 
 ## Acknowledgements
-- ** Used https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient for stars in css
+- **Used https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient for stars in css**
 
 
 
